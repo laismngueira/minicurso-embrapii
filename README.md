@@ -73,9 +73,9 @@ preditiva e a sistemas industriais.
 
 ### Opção 1 — link direto (mais rápido)
 
-Clique para abrir o script direto no Colab:
+Clique para abrir o notebook direto no Colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/laismngueira/minicurso-embrapii/blob/main/versao_pdm/embrapii_06_nov_revisado.py)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/laismngueira/minicurso-embrapii/blob/main/versao_pdm/Minicurso_PdM01.ipynb)
 
 ### Opção 2 — clonando o repositório
 
@@ -83,8 +83,8 @@ Clique para abrir o script direto no Colab:
 git clone https://github.com/laismngueira/minicurso-embrapii.git
 ```
 
-Depois, no Colab, vá em **Arquivo > Abrir notebook > GitHub**, cole a URL do
-repositório e selecione `versao_pdm/embrapii_06_nov_revisado.py` (o repo é
+Depois, no Colab, vá em **Arquivo > Fazer upload de notebook** e selecione
+o arquivo `versao_pdm/Minicurso_PdM01.ipynb` da pasta clonada (o repo é
 público, então o clone não pede usuário nem senha).
 
 ### Rodando o script
@@ -106,6 +106,8 @@ Todos disponíveis em [`versao_pdm/`](versao_pdm/):
 
 | Arquivo | Descrição |
 |---|---|
+| `Minicurso_PdM01.ipynb` | notebook do minicurso (Colab) |
+| `embrapii_06_nov_revisado.py` | mesmo conteúdo, exportado em .py |
 | `01_planta_fresadora_FR01.pdf` | Cenário, variantes de produto, tags do painel e arquitetura de dados — base de conhecimento do RAG |
 | `02_modos_de_falha_FR01.pdf` | Regras, exemplos numéricos e consistência dos rótulos de cada modo de falha — base de conhecimento do RAG |
 | `03_sistema_monitoramento_PdM01.pdf` | Modelos, níveis de alarme, desempenho e procedimentos de manutenção — base de conhecimento do RAG |
@@ -119,7 +121,8 @@ enviado manualmente.
 ```plaintext
 📦 minicurso-embrapii
 ├── 📂 versao_pdm
-│   ├── embrapii_06_nov_revisado.py     # script do minicurso (exportado do Colab)
+│   ├── Minicurso_PdM01.ipynb           # notebook do minicurso (Colab)
+│   ├── embrapii_06_nov_revisado.py     # mesmo conteúdo, exportado em .py
 │   ├── 01_planta_fresadora_FR01.pdf    # base de conhecimento do RAG
 │   ├── 02_modos_de_falha_FR01.pdf      # base de conhecimento do RAG
 │   └── 03_sistema_monitoramento_PdM01.pdf  # base de conhecimento do RAG
