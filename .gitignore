@@ -1,0 +1,25 @@
+# segredos
+.env
+.env.*
+!.env.example
+
+# ambientes virtuais
+.venv/
+venv/
+
+# artefatos Python
+__pycache__/
+*.pyc
+
+# dados baixados automaticamente pelo script (AI4I 2020, etc.)
+*.csv
+repo_apoio/
+
+# metadados do Windows/WSL (Zone.Identifier)
+*:Zone.Identifier
+
+# arquivos grandes (slides completos) — distribuídos via Release, não pelo git
+Embrapii - aula  0611 (2).pdf
+
+# logs locais
+*.log
